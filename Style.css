@@ -23,8 +23,26 @@ body {
   }
 }
 .btn {
-  height: 100px;
+  height: 125px;
   width: 250px;
   margin-left: 10px;
+  background: white;
+  transition: .15s;
+  
+}
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: .15s;
+}
+#Red {
+  background: red;
+}
+#Blue {
+  background: blue;
+}
+#Green {
+  background: green;
+}
+#Clear {
   background: white;
 }
